@@ -1,5 +1,5 @@
 server:
-    port: 3002
+    port: 3102
 management:
   port: 4002
   security:
