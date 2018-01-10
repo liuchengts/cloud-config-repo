@@ -12,3 +12,8 @@ spring:
     port: 5672
     username: guest
     password: guest
+
+#cloud Camden.SR7 之后的版本好像需要手动开启断路器
+feign:
+  hystrix:
+    enabled: true
